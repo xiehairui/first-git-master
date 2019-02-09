@@ -8,7 +8,8 @@ public class MainClass02 {
             int index = Arrays.binarySearch(array,1);
             System.out.println("元素1所在位置（负数为不存在）："+index);
             int newIndex = -index - 1;
-            array = insertElement(array,1,newIndex);
+        array = insertElement(array,1,newIndex);
+        printArray("数组添加元素 1", array);
     }
     private static void printArray(String message,int array[]){
         System.out.println(message +";[length:"+array.length+"]");
