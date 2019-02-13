@@ -4,6 +4,7 @@ public class MyClass04 {
             System.out.printf("Fibonacci of %d is: %d\n", counter,fibonacci(counter));
         }
     }
+    //递归
     public static long fibonacci(long number){
         if((number == 0) || (number == 1))
             return number;
