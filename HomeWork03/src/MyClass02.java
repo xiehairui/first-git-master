@@ -10,6 +10,7 @@ public class MyClass02 {
         System.out.println("\n输出字符型数组：");
         printArray(characterArray);
     }
+    //重载
     /*
     public static void printArray(Integer[] inputArray){
         for (Integer element : inputArray){
